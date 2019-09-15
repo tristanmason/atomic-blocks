@@ -229,7 +229,7 @@ registerBlockType( 'atomic-blocks/ab-container', {
 						<div className="ab-container-image-wrap">
 							<img
 								className={ classnames(
-									'ab-container-image',
+									'ab-container-image wp-image-' . containerImgID,
 									dimRatioToClass( containerDimRatio ),
 									{
 										'has-background-dim': 0 !== containerDimRatio
